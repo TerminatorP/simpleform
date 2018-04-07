@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>AnalogSea - Sign Up or Log in!</title>
+</head>
+
+<body>
+  <main class="wrapper">
+    <!-- form -->
+    <form action="/signup/" method="post">
+      <div class="form-wrapper">
+        <img src="./images/logo.png" alt="Analaog Sea Logo" class="logo">
+        <div class="card">
+          <h1>Sign Up</h1>
+          <label for="email">Email</label>
+          <br>
+          <input type="email" name="email" id="email" placeholder="foo@bar.com" required>
+          <br>
+          <label for="password">Password</label>
+          <br>
+          <input type="password" name="password" id="password" placeholder="123passw0rd" title="Use a strong password with a combination of letters, words and numbers." required pattern=".{8,}">
+          <br>
+          <button type="submit">Sign up</button>
+        </div>
+        <p>Already have an account?
+          <a href="/login">Log in</a>
+        </p>
+      </div>
+    </form>
+    </div>
+  </main>
+</body>
+
+</html>
